@@ -1,4 +1,5 @@
 .nav_div{
+    /*background-color:#3679a3;*/
     padding: 1em;
     border-radius: 0.5em;
     color: white;
@@ -6,7 +7,7 @@
 
 /* change */
 .nav_a{
-    padding-right: 5vw;
+    padding-right: 2em;
     color: white;
     text-decoration: none;
     font-size: 1.5em;
@@ -64,13 +65,10 @@
     margin-right: auto;
 }
 
-#img_logo{
-    padding-right: 50px;
-}
 
-#handle_id{
-    padding-right: 50px;
-}
+/* #handle_id{
+    padding-right: 5px;
+} */
 
 .body_about{
     text-align: center;
@@ -89,13 +87,7 @@
     padding-bottom: 1.5em;
 }
 
-.div1_about{
-    float: left;
-    padding-right: 1em;
-    margin-top: 6.2em;   /* removes top space*/
-    margin-left: -9px;   /* removes left space*/
 
-}
 
 .div2_about {
     margin-right: 5px;
@@ -103,9 +95,7 @@
     color:#117db8;
 }
 
-#profile_img{
-    height: 100vh;
-}
+
 
 #about_p{
     font-size: 3em;
@@ -132,10 +122,7 @@
     margin-top: 8em;
 }
 
-.project_info{
-    color: #127ab3; 
-    font-size: 1.5em
-}
+
 
 .column2{
     float: left;
@@ -234,3 +221,87 @@
     width: 100%;
     color: #fff;
 }
+
+
+/* Addition for lesson 12 */
+
+
+
+  
+  .topnav {
+    /* overflow: visible; */
+    display:none;
+    position: relative;
+    background-color: #333;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+  
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .icon_back{
+    color:#127ab3 !important;
+  }
+  
+
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .div1_about{
+    float: left;
+    
+}
+
+#profile_img{
+    height: 100vh;
+}
+
+.project_info{
+    color: #127ab3; 
+   
+}
+
+#img_logo{
+    padding: 20px;
+}
+
+
+  @media screen and (max-width:780px) {
+    .topnav {
+      display:block;
+    }
+    .nav_div{
+        display: none;
+    }
+
+    .nav_about{
+        display: none;
+    }
+    .nav_game{
+        display: none;
+    }
+
+    #profile_img{
+        width: 100%;
+        height: auto;
+    }
+  }

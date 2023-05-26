@@ -7,7 +7,7 @@
 
 /* change */
 .nav_a{
-    padding-right: 2em;
+    padding-right: 5vw;
     color: white;
     text-decoration: none;
     font-size: 1.5em;
@@ -65,10 +65,13 @@
     margin-right: auto;
 }
 
+#img_logo{
+    padding: 20px;
+}
 
-/* #handle_id{
-    padding-right: 5px;
-} */
+#handle_id{
+    padding-right: 50px;
+}
 
 .body_about{
     text-align: center;
@@ -87,7 +90,9 @@
     padding-bottom: 1.5em;
 }
 
-
+.div1_about{
+    float: left;
+}
 
 .div2_about {
     margin-right: 5px;
@@ -95,7 +100,9 @@
     color:#117db8;
 }
 
-
+#profile_img{
+    height: 100vh;
+}
 
 #about_p{
     font-size: 3em;
@@ -122,7 +129,9 @@
     margin-top: 8em;
 }
 
-
+.project_info{
+    color: #127ab3; 
+}
 
 .column2{
     float: left;
@@ -222,13 +231,7 @@
     color: #fff;
 }
 
-
-/* Addition for lesson 12 */
-
-
-
-  
-  .topnav {
+.topnav {
     /* overflow: visible; */
     display:none;
     position: relative;
@@ -258,50 +261,31 @@
   .icon_back{
     color:#127ab3 !important;
   }
-  
-
-  
-  .active {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-  .div1_about{
-    float: left;
-    
-}
-
-#profile_img{
-    height: 100vh;
-}
-
-.project_info{
-    color: #127ab3; 
-   
-}
-
-#img_logo{
-    padding: 20px;
-}
 
 
-  @media screen and (max-width:780px) {
+
+@media screen and (max-width:890px){
     .topnav {
-      display:block;
+        display:block;
     }
+
     .nav_div{
         display: none;
     }
-
     .nav_about{
         display: none;
     }
-    .nav_game{
+    #footer{
         display: none;
     }
-
     #profile_img{
         width: 100%;
         height: auto;
     }
-  }
+    .nav_game{
+        display: none;
+    }
+   
+
+}
+
